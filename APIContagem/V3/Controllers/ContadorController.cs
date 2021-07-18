@@ -37,7 +37,7 @@ namespace APIContagem.V3.Controllers
             return new()
             {
                 ValorAtual = valorAtualContador,
-                Versao = "2.0",
+                Versao = "3.0",
                 Local = _CONTADOR.Local,
                 Kernel = _CONTADOR.Kernel,
                 TargetFramework = _CONTADOR.TargetFramework,
