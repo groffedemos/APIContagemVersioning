@@ -23,7 +23,7 @@ namespace APIContagem.V3.Controllers
         }
 
         [HttpGet]
-        public ResultadoContador GetV2_0()
+        public ResultadoContador GetV3_0()
         {
             int valorAtualContador;
             lock (_CONTADOR)
